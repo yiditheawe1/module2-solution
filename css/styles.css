@@ -4,6 +4,7 @@
   }
   h1 {
     margin-bottom: 15px;
+    text-align: center;
   }
 
   /* Simple Responsive Framework. */
@@ -12,17 +13,23 @@
   }
 
     .title {
-    background-color: #f1093f;
     position: absolute;
-    width: 3em;
-    height: 8%;
+    width: 4em;
+    height: 10%;
     top: 0%;
     right: 0%;
     margin-top: -0.5%;
-    
+    text-size-adjust: 50% ;
   }
-
-  
+  .t1{
+    background-color: #f1093f;
+  }
+  .t2{
+    background-color: #09abf1;
+  }
+  .t3{
+    background-color: #75f109;
+  }
   p {
     border: 1px solid rgb(8, 234, 76);
     background-color: #191915;
